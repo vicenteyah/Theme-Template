@@ -1,0 +1,249 @@
+/** titles **/
+.section-title {
+  font-family: var(--font-Bold);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.section-title h3{
+    color: var(--color-tertiary);
+    font-size: 0.9rem;
+}
+.section-title h1{
+    color: var(--color-secondary);
+    font-family: var(--font-Light);
+}
+.section-title strong{
+   font-family: var(--font-Bold);
+}
+.section-title span{
+    border-bottom: 2px solid var(--color-tertiary);
+}
+
+/** Squares and rectangles **/
+
+.section-contentHero{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section-contentHero article{
+    text-decoration: none;
+    margin: 3px 10px;
+    
+}
+
+
+/**  Development Team **/
+.section-content-team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.section-content-team img{
+    width: 255px;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+.article-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-Medium);
+    font-size: 0.9rem;
+    padding: 20px 0px;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-secondary);
+    margin: 10px 10px;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-networks a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+/** Section Prices **/
+
+.background-cards-section{
+    background-color: var(--color-quinary);
+    width: 100%;
+    padding:40px 0px;
+}
+
+.prices-content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-hero{
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-hero figure{
+    margin: 20px 0px;
+}
+
+.card-hero i{
+    font-size: 2rem;
+    color: var(--color-quaternary);
+}
+
+.card-hero h3{
+    font-family: var(--font-Light);
+    color: var(--color-secondary);
+}
+
+.card-hero h1{
+    font-family: var(--font-Bold);
+    font-size: 2rem;
+    color: var(--color-secondary);
+    margin: 20px 0px;
+}
+
+.card-hero strong{
+    font-family: var(--font-Bold);
+    color: var(--color-secondary);
+    font-size: 0.9rem;
+}
+
+.card-hero span{
+    font-family: var(--font-Light);
+    color: var(--color-tertiary);
+    font-size: 0.9rem;
+}
+
+.card-divider{
+    width: 80%;
+    height: 1px;
+    background-color: var(--color-quinary);
+    margin: 10px 10px;
+}
+
+.card-hero p {
+    font-family: var(--font-Light);
+    color: var(--color-quaternary);
+    font-size: 1rem;
+    margin: 20px 0px;
+}
+
+.btn-hero{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-Medium);
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 1px solid var(--color-secondary);
+    margin: 20px 0px;
+}
+
+.btn-hero:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+
+/** Section Blog Rencent news **/
+
+
+.cards-thumbs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.thumbnails-card{
+    border-radius: 5px;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-quinary);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #a9a9a9;
+}
+
+.thumbnails-card img{
+    width: 350px;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-Medium);
+    font-size: 0.9rem;
+    padding: 20px 20px;
+}
+
+.thumb-divider{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-quinary);
+    margin: 10px 10px;
+}
+
+.article-header p {
+    font-family: var(--font-Medium);
+    color: var(--color-quaternary);
+    font-size: 0.7rem;
+    margin: 2px;
+}
+
+.article-header h3{
+    font-family: var(--font-Bold);
+    color: #696969;
+    font-size: 1rem;
+    margin: 2px;
+}
+
+.article-author p{
+    color: #696969;
+}
+.article-author span{
+    color: var(--color-tertiary);
+}
+
+.article-description{
+    font-family: var(--font-Medium);
+    color: #696969;
+    font-size: 0.8rem;
+    padding: 10px 0px;
+}
+
+.article-content a{
+    color: #696969;
+}
+
+

@@ -1,0 +1,103 @@
+/** Square **/
+.square{
+    position: relative;
+    overflow: hidden;
+}
+
+#info {
+    background-color: white;
+    top:100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 330px;
+    opacity: 0.90;
+    margin: 5px 5px;
+}
+#info a{
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    padding: 10px;
+}
+
+#info a:hover{
+    transform: scale(1.1);
+    transform: all .5s;
+}
+
+.square:hover #info{
+    top: 0;
+}
+
+/** rectangle **/
+#info-rec {
+    background-color: white;
+    top:100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 325px;
+    width: 690px;
+    opacity: 0.90;
+    margin: 5px 5px;
+}
+
+#info-rec a{
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    padding: 10px;
+}
+
+#info-rec a:hover{
+    transform: scale(1.1);
+    transform: all .5s;
+}
+
+.rectangle{
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangle:hover #info-rec{
+    top: 0;
+}
+
+/** Dev TEam **/
+
+.article-item figure{
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: all .5s;
+}
+.article-item figure:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+/** Prices Section **/
+.prices-content article:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/** Recent News Section **/
+.thumbnails-card:hover img{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.thumbnails-card figure{
+    overflow: hidden;
+}
