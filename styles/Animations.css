@@ -101,3 +101,19 @@
 .thumbnails-card figure{
     overflow: hidden;
 }
+
+
+/** Social Icons animations **/
+
+.facebook-btn i:hover{
+    color: #2D88FF;
+}
+.twitter-btn i:hover{
+    color: #1D9BF0;
+}
+.googleplus-btn i:hover{
+    color: #F44336;
+}
+.instagram-btn i:hover{
+   color: #8b06f8;
+}
